@@ -5,7 +5,7 @@
         "build": "npx rollup -c",
         "dev": "npx rollup -c -w",
         "start": "npx serve -n -l 5000 public"
-        "engines" i {
+        "engines":  {
     "node": "18.3.0"
   }
     },
