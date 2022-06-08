@@ -10,9 +10,9 @@
             let b64link;
             if (link.length > 0) {
                 if(uploader != ""){
-                    b64link = "https://turkishdrive.glitch.me/#/link/" + Base64.encodeURI(link, {urlsafe: true,}) + '.' + Base64.encodeURI(uploader, {urlsafe: true,});
+                    b64link = "https://turkishdrive-link-encrypter.vercel.app/#/link/" + Base64.encodeURI(link, {urlsafe: true,}) + '.' + Base64.encodeURI(uploader, {urlsafe: true,});
                 }else{
-                    b64link = "https://turkishdrive.glitch.me/#/link/" + Base64.encodeURI(link, {urlsafe: true,});
+                    b64link = "https://turkishdrive-link-encrypter.vercel.app/#/link/" + Base64.encodeURI(link, {urlsafe: true,});
                 }
                 data.push(b64link);
             }
