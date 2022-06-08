@@ -22,13 +22,13 @@
 	  <div class="container">
 		<h1>Turkish Drive Link Encrypter</h1>
 	  <input bind:value={data} on:input={() => getBase64()} placeholder="Enter Download Link" class="form-control" id="encode"/>
-	  <input bind:value={uploader} on:input={() => getBase64()} placeholder="Uploader (optional, default: Gamesdrive)" class="form-control" id="encode" />
+	  <input bind:value={uploader} on:input={() => getBase64()} placeholder="Uploader (optional, default: Turkish Drive)" class="form-control" id="encode" />
 	  {#if base64 == ''}
 	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly></textarea>
 	  {:else if uploaderB64 == ''}
-	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly>https://turkishdrive.glitch.me/#/link/{base64}</textarea>
+	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly>https://turkishdrive-link-encrypter.vercel.app/#/link/{base64}</textarea>
 	  {:else}
-	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly>https://turkishdrive.glitch.me/#/link/{base64}.{uploaderB64}</textarea>
+	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly>https://turkishdrive-link-encrypter.vercel.app/#/link/{base64}.{uploaderB64}</textarea>
 
 	  {/if}
 	  <a href="/#/bulk">Bulk link encrypter</a>
