@@ -24,7 +24,7 @@
 </script>
 
 <main>
-    <div class="d-flex justify-content-center text-center">
+    <div class="d-flex justify-content-center text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
     <div class="container">
         <h1>Turkish Drive Bulk Link Encrypter</h1>
     <textarea
