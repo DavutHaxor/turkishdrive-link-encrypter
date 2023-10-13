@@ -18,7 +18,7 @@
 	<main>
 	
 		
-	<div class="d-flex justify-content-center text-center" id="encode">
+	<div class="d-flex justify-content-center text-center" id="encode" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
 	  <div class="container">
 		<h1>Turkish Drive Link Encrypter</h1>
 	  <input bind:value={data} on:input={() => getBase64()} placeholder="Enter Download Link" class="form-control" id="encode"/>
