@@ -33,7 +33,7 @@
 	  {/if}
 	  <a href="/#/bulk">Bulk link encrypter</a>
 	<div class="text-center">
-	  <small><a href="https://github.com/crackhub-dev/gamesdrive-link-encrypter" target="_blank"><i class="bi bi-github"></i></a></small>
+	  <small><a href="https://github.com/DavutHaxor/turkishdrive-link-encrypter" target="_blank"><i class="bi bi-github"></i></a></small>
 	</div>
 	</div>
 	</div>
