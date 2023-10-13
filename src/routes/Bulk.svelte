@@ -48,7 +48,7 @@
     <br>
     <button class="btn btn-lg btn-primary" on:click={generateLinks}>Encrypt</button>
     <br>
-    <small><a href="https://github.com/crackhub-dev/gamesdrive-link-encrypter" target="_blank"><i class="bi bi-github"></i></a></small>
+    <small><a href="https://github.com/DavutHaxor/turkishdrive-link-encrypter" target="_blank"><i class="bi bi-github"></i></a></small>
 </div>
 </div>
 </main>
