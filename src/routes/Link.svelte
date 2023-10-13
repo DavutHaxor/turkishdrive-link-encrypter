@@ -14,7 +14,7 @@
 </script>
 
 <main>
-	<div class="container d-flex justify-content-center text-center">
+	<div class="container d-flex justify-content-center text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
 	<div class="container ">
 	{#if data.includes(".") && uploader.length > 0 }
 		<h3>Link Provided by <b>{Base64.decode(uploader)}</b></h3>
