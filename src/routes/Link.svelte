@@ -21,7 +21,7 @@
 		{:else}
 		<h3>Link Provided by Turkish Drive</h3>
 	{/if}
-	<a href="{decrypted_url}"><button class="btn btn-primary btn-lg">GO!</button></a>
+	<a href="{decrypted_url}"><button class="btn btn-primary btn-lg"><i class="bi bi-download"></i> GO!</button></a>
 	<br>
 	<small>This link will take you to <b>{domain}</b></small>
 </div>
