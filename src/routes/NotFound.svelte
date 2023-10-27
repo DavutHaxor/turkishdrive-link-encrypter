@@ -1,5 +1,5 @@
-<h1>Not Found</h1>
-<p>This route doesn't exist.</p>
+<h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Not Found</h1> <!-- try this-->
+<p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, 120%)">This route doesn't exist.</p> <!-- a little below the first text-->
 
 <style>
 	h1 {

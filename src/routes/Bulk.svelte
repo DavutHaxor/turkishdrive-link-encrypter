@@ -23,25 +23,26 @@
     }
 </script>
 
+
 <main>
     <div class="d-flex justify-content-center text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
     <div class="container">
         <h1>Turkish Drive Bulk Link Encrypter</h1>
     <textarea
-        placeholder="Enter Download Links (each link seperated by new line!)"
+        placeholder="Enter Links (each link seperated by new line!)"
         class="form-control"
         id="encode"
     />
     <input
         bind:value={uploader}
-        placeholder="Uploader (optional, default: Turkish Drive)"
+        placeholder="Publisher (optional, default: Turkish Drive)" 
         class="form-control"
         id="encode"
     />
     <textarea
         class="form-control"
         id="links"
-        placeholder="Base64 Encrypted Links"
+        placeholder="Base64 Encrypted Links"    
         readonly
     />
     <a href="/#/">Single link encrypter</a>

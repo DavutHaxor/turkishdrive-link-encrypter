@@ -23,7 +23,9 @@
 	{/if}
 	<a href="{decrypted_url}"><button class="btn btn-primary btn-lg">GO!</button></a>
 	<br>
-	<small>This link will take you to <b>{domain}</b></small>
+	<small>This link will take you to <b>{domain}</b></small>  <!-- domain might be changed to RESTRICTED later -->
 </div>
 </div>
 </main>
+
+

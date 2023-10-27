@@ -22,7 +22,7 @@
 	  <div class="container">
 		<h1>Turkish Drive Link Encrypter</h1>
 	  <input bind:value={data} on:input={() => getBase64()} placeholder="Enter Download Link" class="form-control" id="encode"/>
-	  <input bind:value={uploader} on:input={() => getBase64()} placeholder="Uploader (optional, default: Turkish Drive)" class="form-control" id="encode" />
+	  <input bind:value={uploader} on:input={() => getBase64()} placeholder="Publisher (optional, default: Turkish Drive)" class="form-control" id="encode" />
 	  {#if base64 == ''}
 	  <textarea class="form-control" placeholder="Base64 Encrypted Link" readonly></textarea>
 	  {:else if uploaderB64 == ''}
